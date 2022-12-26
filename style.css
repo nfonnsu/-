@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* { 
+    margin: 0; 
+  padding: 0;
+   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+}
+.header{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.header__menu{
+    width: 65%;
+    min-height: 14vh;
+    background-color: #181818;
+	border-radius: 2px 0px 2px 200px;
+	
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	padding: 0px 20px;
+}
+.header__list{
+    width: 100%;
+    list-style: none;
+	
+ 	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.header__item{
+    font-size: 18px;
+	font-weight: 400; 
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.container{
+	margin: 30px 0px;
+}
+.title-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    color: #fff;
+    background-color: #181818;
+    width: 320px;
+    height: 55px;
+    border-radius: 30px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.whoami{
+	display: flex;
+	margin: 20px 0px;
+	justify-content: center;
+}
+.whoami__title{
+	text-align: center;
+}
+.whoami__col{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.whoami__text{
+ 	padding:20px;
+ 	text-align: justify;
+ 	font-size: 18px;
+	width: 90%;
+	width: auto;
+}
+.whoami__img{
+	margin: 0px 30px;
+	height: 40vh;
+	object-fit: cover;
+	object-position: top;
+	width: 20vw;
+	border-radius: 20px;
+}
+.hobi__heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hobi__list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hobi{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+}
+.social{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social__img{
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+}
+.social__img:nth-child(1){
+    background-image: url("facebook.png");
+}
+.social__img:nth-child(2){
+    background-image: url("instagram.png");
+}
+.social__img:nth-child(3){
+    background-image: url("telegram.png");
+}
+.social__title{
+	color: #fff;
+	width: inherit;
+	height: inherit;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: brightness(25%);
+	border-radius: 30px;
+	font-weight: 600;
+}
